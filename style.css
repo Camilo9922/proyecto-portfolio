@@ -7,7 +7,7 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
-    height: 100vh;
+    /*    height: 100vh;*/
     box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10%;
+    padding: 8% 15%;
     justify-content: space-between;
 }
 .presentacion__contenido{
@@ -68,4 +68,34 @@ body{
     font-size: 24px;
     font-family: "Krona One", serif;
     font-weight: 400;
+}
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer, a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__menu__link{
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.header__menu__link:hover{
+    color: #007bff;
+}
+.header__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
